@@ -1,1 +1,39 @@
 @import url("./global.css");
+
+header{
+    display: flex; /*Para que o grupo fique ao lado do outro*/
+    justify-content: space-between; /*Colocar nas extremidades*/
+    padding: 30px; /*Espaçamento interno*/
+    align-items: center; /*Centraliza na vertical*/
+    border-bottom: 0.7px solid var(--color-gray-3); /*Borda inferior */
+}
+
+.container-nav-header{
+    display: flex; /*Para que o grupo fique ao lado do outro*/
+    align-items: center; /*Centraliza na vertical*/
+    gap: 70px; /*Distância entre os elementos*/
+}
+
+.navigation-header ul{ /*Só vai estilizar as tags <UL> que estiverem dentro navigation header*/
+ display: flex; /*Para que o grupo fique ao lado do outro*/
+ gap: 40px; /*Distância entre os elementos*/
+ list-style: none; /*Remove a bolinha*/
+}
+.navigation-header ul li a{
+ text-decoration: none; /*Remove a linha dos textos*/
+ color: var(--color-black); /*Cor do texto*/
+ font-family: var(--font-family-primary); /*Família da fonte*/
+}
+.navigation-header ul li .menu-active {
+    color: var(--color-blue); /*Cor do texto*/
+}
+
+.btn-header{
+    font-family: var(--font-family-primary); /*Família da fonte*/
+    text-decoration: none; /*Remove a linha dos textos*/
+    background-color: var(--color-blue); /*Cor de fundo*/
+    color: var(--color-white); /*Cor do texto*/
+    border-radius: 10px; /*Arredonda as bordas*/
+    padding: 10px 20px; 
+    font-weight: var(--font-weigth-button); /*Espressura da fonte do texto*/
+}
