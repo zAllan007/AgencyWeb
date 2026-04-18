@@ -34,6 +34,6 @@ header{
     background-color: var(--color-blue); /*Cor de fundo*/
     color: var(--color-white); /*Cor do texto*/
     border-radius: 10px; /*Arredonda as bordas*/
-    padding: 10px 20px; 
+    padding: 10px 20px; /*Espaçamento interno*/
     font-weight: var(--font-weigth-button); /*Espressura da fonte do texto*/
 }
