@@ -287,3 +287,28 @@ gap: 25px; /*Espaçamento entre o elementos*/
     line-height: 27px;
     width: 445px;
 }
+
+/*-----SECTION BENEFIT-----*/
+.section-benefit{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-benefit{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    padding: 60px 48px;
+    border: 20px;
+}
+
+.card-benefit-secondary P{
+    width: 458px;
+}
+
+.card-benefit-secondary{
+    background-color: #F4F4F4;
+
+}
