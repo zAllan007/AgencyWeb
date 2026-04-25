@@ -187,10 +187,8 @@ main {
     font-size: var(--font-size-h4);
 }
 
-.container-item-services p{
+.container-item-services p {
     font-family: var(--font-family-primary);
     color: var(--color-gray-2);
     font-size: var(--font-size-h4);
 }
-
-
