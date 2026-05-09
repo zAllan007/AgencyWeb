@@ -189,6 +189,126 @@ main {
 
 .container-item-services p {
     font-family: var(--font-family-primary);
+    /* Muda a fonte */
     color: var(--color-gray-2);
+    /* Muda a cor*/
     font-size: var(--font-size-h4);
+    /* Tamanho da fonte*/
+}
+
+/* -----SECTION-DETAILS----- */
+
+.section-details {
+    display: flex;
+    /*Para que o grupo fique ao lado do outro*/
+    flex-direction: column;
+    /*Deixa em coluna*/
+    gap: 80px;
+    /*Espaçamento entre os elementos*/
+    align-items: center;
+    /*Cuida da horizontal (Por causa do flex-direction: column)*/
+    padding: 80px 0;
+    /*Espaçamento interno*/
+}
+
+.details-presentation {
+    display: flex;
+    /*Deixa o grupo fique um lado do outro*/
+    flex-direction: column;
+    /*Muda o eixo para a vertical (deixando em coluna)*/
+    text-align: center;
+    /*Deixa o texto no centro*/
+    gap: 30px;
+    /*Espaçamento entre o elementos*/
+}
+
+.details-presentation h2 {
+    font-size: var(--font-size-h2);
+    /*Muda o tamanho do texto*/
+    font-family: var(--font-family-primary);
+    /*Muda a escrita da fonte*/
+    font-weight: var(--font-weight-h2);
+    /*Muda espressura/largura*/
+
+}
+
+.details p {
+    font-family: var(--font-family-primary);
+    /*Escrita da fonte*/
+    font-size: var(--font-size-body);
+    /*Tamanho da fonte*/
+    color: var(--color-gray-2);
+    /*Cor do texto*/
+    width: 665px;
+    /*Largura*/
+    margin: 0 auto;
+
+}
+
+.service-description{
+    display: flex;
+    align-items: center;
+    gap: 60px;  
+}
+
+.content-service {
+    display: flex; /*Deixa o grupo fique um lado do outro*/
+    flex-direction: column; /*Deixa em coluna*/
+    gap: 40px; /*Espaçamento entre o elementos*/
+}
+
+.services-details{
+display:flex; /*Deixa o grupo fique um lado do outro*/
+align-items: center; /*Cuida da vertical*/
+gap: 25px; /*Espaçamento entre o elementos*/
+}
+
+.services-details div span{
+    font-size: var(--font-size-h4);  /*Tamanho da fonte*/
+    font-family: var(--font-family-primary); /*Escrita da fonte*/
+    color: var(--color-gray-2); /*Cor do texto*/
+
+}
+
+.content-service h3{
+    font-size: var(--font-size-h3); /*Muda o tamanho da fonte*/
+    font-family: var(--font-family-primary); /*MUda a fonte*/
+    font-weight: var(--font-weigth-h3);/*Familia da largura*/
+    width: 420px; /*Largura*/
+}
+
+.content-service h3 span{
+    color: var(--color-blue); /*Muda a cor do span*/
+}
+
+.content-service p{
+    color: var(--color-gray);
+    font-family: var(--font-family-primary);
+    line-height: 27px;
+    width: 445px;
+}
+
+/*-----SECTION BENEFIT-----*/
+.section-benefit{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-benefit{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    padding: 60px 48px;
+    border: 20px;
+}
+
+.card-benefit-secondary P{
+    width: 458px;
+}
+
+.card-benefit-secondary{
+    background-color: #F4F4F4;
+
 }
