@@ -370,3 +370,23 @@ main {
     font-weight: var(--font-weigth-button);
     font-family: var(--font-family-primary);
 }
+
+.section-company{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+    padding: 80px 0;
+}
+
+.section-company h2{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h2);
+    font-size: var(--font-size-h2);
+}
+
+.container-company{
+    display: flex;
+    gap: 80px;
+}
